@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Links -->
+    <link rel="stylesheet" href="index.css">
+    <!-- <script src="https://kit.fontawesome.com/2e9358a582.js" crossorigin="anonymous"></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/aos.css">
+    <link rel="stylesheet" href="lib/animate.css">
+</head>
+<body>
+    <!-- Sections -->
+
+    <!-- Section 1 -->
+    <section id="section1">
+        <div class="conteudo" data-aos="fade-right">
+            <p>Bem-vindo, somos a Brain uma nova maneira de gerir e organizar sua instituição de ensino.</p>
+            <div class="botoes">
+                <div class="botao">
+                    <p>Assine agora</p>
+                </div>
+                <div class="botao" style="background-color: #862C8A">
+                    <p style="color: white;">Ver mais</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Header -->
+    <div id="header" class="header">
+        <img src="img/logo.png" alt="Logo"> 
+        <div class="navbar">
+            <div class="acessar">
+                <span>Produto</span>
+            </div>
+            <div class="acessar">
+                <span>Sobre</span>
+            </div>
+            <div class="acessar">
+                <span>Serviços & suporte</span>
+            </div>
+        </div>
+    </div>
+    <!-- Section 2 -->
+    <section id="section2">
+        <div class="conteudo">
+           <div class="content-box"></div>
+               <div class="text-box">
+                    <h1 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="10000">Por que Brain?</h1>
+                    <p data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="10000">Inovamos a educação por meio da tecnologia e da integração digital, unindo todas as funções de uma escola em uma única plataforma, facilitando seu uso para todos os usuários, desde alunos a diretores.</p>
+               </div>
+               <img id="iphone" src="img/iphone.png" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="700">
+               <img id="imac" src="img/imac.png" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500">
+               <img id="macbook" src="img/macbook.png" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="900">
+           </div>
+        </div>    
+    </section>
+    <!-- Section3 -->
+    <section id="section3">
+        <div class="conteudo">
+            <div id="texto2" class="text-box">
+                <p data-aos="fade-right" data-aos-duration="900">Facilitamos a gestão de um ambiente escolar para coordenadores e professores dinamizando a maneira de organizar aulas e conteúdos, além de incentivarmos a comunicação entre estudantes e docentes.</p>
+            </div>
+            <div class="vl" data-aos="fade-up" data-aos-duration="500"></div>
+            <div id="texto1" class="text-box">
+                <p data-aos="fade-left" data-aos-duration="900">De chamadas mais fáceis a uma agenda integrada, nossa plataforma abrange tudo que uma plataforma de ensino precisa.</p>
+            </div>
+        </div>    
+    </section>
+    <!-- Section 4 -->
+    <section id="section4">
+        <div class="conteudo">
+            <h1 data-aos="fade-up" data-aos-easing="ease-out-back">Fácil, ágil e integrado. Isso é Brain!</h1>
+            <!-- Cards -->
+            <div class="cols">
+
+            <!-- Card 1 -->
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+                <div class="container">
+                    <!-- Front -->
+                    <div class="front" style="background-color: #502F7E;">
+                        <div class="inner">
+                            <i class="icon far fa-eye"></i>
+                            <p>Design amigável e intuitivo</p>
+                        </div>
+                    </div>
+                    <!-- Back -->
+                    <div class="back">
+                        <div class="inner">
+                        <p>Valorizamos o bom funcionamento do sistema combinado com uma interface intuitiva e bem planejada.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+                <div class="container">
+                    <!-- Front -->
+                    <div class="front" style="background-color: #502F7E;">
+                        <div class="inner">
+                            <i class="icon fas fa-sitemap"></i>
+                            <p>Sistema integrado e simples</p>
+                        </div>
+                    </div>
+                    <!-- Back -->
+                    <div class="back">
+                        <div class="inner">
+                            <p>A integração de diferentes funções no mesmo sistema é nossa maior especialidade.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+                <div class="container">
+                    <!-- Front -->
+                    <div class="front" style="background-color: #502F7E;">
+                        <div class="inner">
+                            <i class="icon fas fa-graduation-cap"></i>
+                            <p>Feito de estudantes, para estudantes</p>
+                        </div>
+                    </div>
+                    <!-- Back -->
+                    <div class="back">
+                        <div class="inner">
+                            <p>Conhecemos os problemas e deficiências dos sistemas existentes, e propomos soluções criativas para resolvê-los.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>    
+    </section>
+    <!-- Sticky Header -->
+    <script>
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function() {myFunction()};
+
+        // Get the header
+        var header = document.getElementById("header");
+
+        // Get the offset position of the navbar
+        var sticky = header.offsetTop;
+
+        // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+        }
+    </script>
+    <!-- AOS Animated Library Script-->
+    <script src="lib/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
