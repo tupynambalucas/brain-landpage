@@ -1,0 +1,34 @@
+*{margin: 0px; scroll-behavior: smooth;}
+
+h1,h2,h3,p,span{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: #502F7E;
+}
+
+/* Sections */
+#section1{
+    position: relative;
+    height: 60%;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(117,47,148,1) 0%, rgba(80,47,126,1) 100%);
+    z-index: 11;
+}
+#section2{
+    position: relative;
+    height: 70%;
+    width: 100%;
+    background-color: white;
+    z-index: 0;
+}
+#section3{
+  position: relative;
+  height: 50%;
+  width: 100%;
+  background-color: #502F7E;
+  z-index: 0;
+}
