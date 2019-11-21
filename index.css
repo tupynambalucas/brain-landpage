@@ -58,7 +58,9 @@ body,html{
     margin-left: 5vh;
     font-size: 2vh;
 }
-
+#header .acessar:hover{
+  cursor: pointer;
+}
 .acessar span{
     margin-left: 1vw;
 }
